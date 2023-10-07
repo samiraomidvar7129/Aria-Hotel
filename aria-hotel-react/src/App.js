@@ -1,6 +1,6 @@
-import Reac from 'react';
+import React from 'react';
 import Header from './components/header';
-import { Link,Routes,Route } from 'react-router-dom';
+import Navbar from './components/navbar';
 
 
 
@@ -8,7 +8,7 @@ const App = ()=>{
     return(
         <>
         <Header/>
-        
+        <Navbar/>
         </>
     )
 }

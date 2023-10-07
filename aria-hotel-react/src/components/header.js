@@ -1,23 +1,18 @@
 import React from 'react';
-import styled from 'styled-components';
 import hotel from '../imgs/banner/hotel.jpg';
+import Navbar from '../components/navbar'
+import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
 
- const SECTION=styled.section`
- width:100%;
- height:100vh;
- border:2px solid red;
- position:relative
- `
- const Div=styled.div`
- 
- `
 
 
   const Header=()=>{
     return (
         <>
         <SECTION className='header-img'>
-         <img src={hotel}></img>
+          <Navbar/>
+         <HEADERIMG>
+           <IMG src={hotel}></IMG>
+         </HEADERIMG>
         </SECTION>
         </>
     )
