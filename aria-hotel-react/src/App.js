@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './components/header';
 import Navbar from './components/navbar';
+import Header from './components/header';
 
 
 
 const App = ()=>{
     return(
         <>
-        <Header/>
         <Navbar/>
+        <Header/>
         </>
     )
 }
