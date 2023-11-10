@@ -3,12 +3,39 @@
 }
 
 /* HeaderText Componet Styles */
+
 .header-content{
     width: 400px;
     height: 500px;
     position: absolute;
     top: 50%;
     left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     transform: translate(-50%,-50%);
-    background-color: rgb(192, 235, 226);
+}
+.header-content-title{
+    font-size: 35px;
+    text-align: center;
+}
+.header-content-mute{
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/*  ShowData Component Styles */
+
+.showData-parent{
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+}
+.rooms-title{
+    text-align: center;
+    padding-top: 20px;
+    color: red !important;
 }

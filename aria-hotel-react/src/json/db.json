@@ -1,0 +1,22 @@
+{
+    "rooms": [
+      {
+        "roomNumber": "101",
+        "beds": 2,
+        "capacity": 4,
+        "amenities": ["WiFi", "TV", "Mini Fridge"]
+      },
+      {
+        "roomNumber": "102",
+        "beds": 1,
+        "capacity": 2,
+        "amenities": ["WiFi", "TV"]
+      },
+      {
+        "roomNumber": "103",
+        "beds": 3,
+        "capacity": 6,
+        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+      }
+    ]
+  }

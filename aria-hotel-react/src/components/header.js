@@ -1,7 +1,7 @@
 import React from 'react';
 import hotel from '../imgs/banner/hotel.jpg';
 import Navbar from '../components/navbar';
-import HeaderText from './headerText';
+// import HeaderText from './headerText';
 import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
 
 
@@ -9,12 +9,11 @@ import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
   const Header=()=>{
     return (
         <>
-        <SECTION className='header-img'>
+        <SECTION>
           <Navbar/>
          <HEADERIMG>
-          
            <IMG src={hotel}>
-           <HeaderText/>
+           {/* <HeaderText/> */}
            </IMG>
          </HEADERIMG>
         </SECTION>
