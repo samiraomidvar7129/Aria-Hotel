@@ -17,7 +17,7 @@ position:relative
 export const IMG=styled.img`
 display:block;
 width:100%;
-height:100%
+height:100%;
 `
 
 
@@ -60,11 +60,20 @@ export const SHOWDATAPARENT=styled.div`
 width: 100%;
 height: auto;
 padding: 20px;
+margin-top:70px
+
 `
-export const ROOMSTITLE=styled.h2`
-text-align: center;
+export const ROOM_TEXT=styled.h5`
+font-size:12px;
+color:#FF5B22;
+text-align:right;
+margin-right:30px
+`
+export const ROOMSTITLE=styled.h4`
+text-align: right;
 padding-top: 20px;
-color: red !important;
+color: #FF5B22;
+margin-right:30px
 `
 
 /*  roomsList Component Styles */
@@ -116,4 +125,45 @@ font-size:10px;
 text-align:right
 `
 
+/* Services Component Styles*/ 
 
+export const SERVICES=styled.section`
+width:90%;
+height:100px;
+margin:0 auto;
+position:relative;
+top:-50px;
+left:0;
+`
+export const SERVICES_ITEMS=styled.div`
+width:100%;
+height:100%;
+background-color:#fff;
+border:1px solid #FF5B22;
+display:flex;
+flex-direction:row-reverse;
+justify-content:space-around;
+align-items:center
+`
+export const SERVICES_BOX=styled.div`
+width:16%;
+height:100%;
+color:#FF5B22;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:center;
+font-size:40px;
+padding:10px
+`
+export const SERVICES_ICONS=styled.span`
+width:100%;
+heght:100%;
+display:flex;
+justify-content:center;
+align-items:center
+`
+export const SERVICES_TEXT=styled.h4`
+font-size:14px
+`
+/* WorkProcess  Component Styles*/ 

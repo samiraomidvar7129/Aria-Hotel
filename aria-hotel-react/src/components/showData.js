@@ -1,12 +1,13 @@
 import React from 'react';
 import RoomsList from './roomsList';
-import {SHOWDATAPARENT,ROOMSTITLE} from './styled-components/custom-styled'
+import {SHOWDATAPARENT,ROOM_TEXT,ROOMSTITLE} from './styled-components/custom-styled'
 
 const ShowData = () => {
     return ( 
         <>
         <SHOWDATAPARENT >
-            <ROOMSTITLE className='rooms-title'>لیست اتاقها</ROOMSTITLE>
+            <ROOM_TEXT>اتاقها</ROOM_TEXT>
+            <ROOMSTITLE className='rooms-title'>  اتاق موردنظر خود را انتخاب کنید</ROOMSTITLE>
            <RoomsList/>
          </SHOWDATAPARENT>
         </>
