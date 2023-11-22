@@ -10,7 +10,7 @@ import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
 
   const Header=()=>{
     return (
-        <>
+        <div>
         <SECTION>
           <Navbar/>
          <HEADERIMG>
@@ -20,7 +20,7 @@ import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
          </HEADERIMG>
         <Services/>
         </SECTION>
-        </>
+        </div>
     )
 
 }

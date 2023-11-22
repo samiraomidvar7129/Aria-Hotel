@@ -20,17 +20,16 @@ width:100%;
 height:100%;
 `
 
-
 /* Navbar Component Styles*/
 
 export const NAVBAR=styled.nav`
-width:100%;
+width:90%;
 height:60px;
-background-color:gray;
+background-color:#FF5B22;
 position:absolute;
 z-index:11;
-top:0;
-left:0;
+top:10px;
+left:5%;
 display:flex;
 justify-content:center;
 align-items:center
@@ -139,7 +138,7 @@ export const SERVICES_ITEMS=styled.div`
 width:100%;
 height:100%;
 background-color:#fff;
-border:1px solid #FF5B22;
+border-bottom:1px solid #E57C23;
 display:flex;
 flex-direction:row-reverse;
 justify-content:space-around;
@@ -166,4 +165,69 @@ align-items:center
 export const SERVICES_TEXT=styled.h4`
 font-size:14px
 `
-/* WorkProcess  Component Styles*/ 
+/* WorkProcess  Component Styles*/
+
+export const WorkProcess_PARENT=styled.section`
+width:90%;
+height:70px;
+margin:50px auto;
+padding:10px;
+`
+export const WorkProcess_text=styled.h5`
+text-align:center;
+color:#FF5B22;
+`
+export const WorkProcess_P=styled.p`
+text-align:center;
+color:#010101;
+font-size:14px;
+margin-top:10px
+`
+
+/*WorkProcessBoxes Component Styles */
+export const WorkProcessBoxes_WRAPPER=styled.section`
+width:90%;
+height:auto;
+margin:30px auto;
+display:flex;
+flex-direction:row-reverse;
+justify-content:space-around;
+align-items:center
+`
+export const BOX_1=styled.div`
+width:30%;
+heght:250px;
+padding:10px;
+display:flex;
+flex-direction:column;
+justify-content:space-around;
+align-items:center;
+`
+export const BOX_1_ITEM=styled.div`
+width:100%;
+heght:auto;
+display:flex;
+flex-direction:row-reverse;
+justify-content:space-around;
+align-items:center
+`
+export const BOX_1_text=styled.p`
+font-size:13px;
+margin-top:10px;
+`
+export const BOX_1_ICON=styled.span`
+width:10%;
+height:100%;
+color:#FF5B22;
+font-size:30px;
+`
+export const BOX_1_NUMBER=styled.span`
+color:#FF5B22;
+font-size:22px
+`
+export const DESCRIPTION=styled.p`
+font-size:14px;
+margin-top:12px;
+color:#7D7C7C;
+text-align:right;
+`

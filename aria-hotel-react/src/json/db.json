@@ -4,7 +4,7 @@
         "id":"1",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "101",
-        "beds": 2,
+        "beds": 4,
         "capacity": 4,
         "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       },
@@ -13,82 +13,54 @@
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
 
         "roomNumber": "102",
-        "beds": 1,
+        "beds": 2,
         "capacity": 2,
-        "amenities": ["WiFi", "TV"]
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       },
       {
         "id":"3",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "beds": 5,
+        "capacity": 5,
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       }, {
         "id":"4",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "beds": 1,
+        "capacity": 1,
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       }, {
         "id":"5",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
-        "beds": 3,
+        "beds": 6,
         "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       },
        {
         "id":"6",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
         "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "capacity": 3,
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       }, {
         "id":"7",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
-        "beds": 4,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "beds": 2,
+        "capacity": 2,
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       },
       {
         "id":"8",
         "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
         "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
-      }, {
-        "id":"9",
-        "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
-        "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
-      }, {
-        "id":"10",
-        "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
-        "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
-      }, {
-        "id":"11",
-        "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
-        "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
-      }, {
-        "id":"12",
-        "img":"https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1699692497~exp=1699693097~hmac=f11161cf33beb351e3ae51d3e92342284bc399e27d84c3a1e7ef90fc9583fd1d",
-        "roomNumber": "103",
-        "beds": 3,
-        "capacity": 6,
-        "amenities": ["WiFi", "TV", "Kitchenette", "Balcony"]
+        "beds": 4,
+        "capacity": 4,
+        "amenities": ["وایفا", "تلویزیون", "کولر آبی"]
       }
     ]
   }

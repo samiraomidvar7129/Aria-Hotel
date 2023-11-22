@@ -1,11 +1,17 @@
 import React from 'react';
+import { WorkProcess_PARENT, WorkProcess_text,WorkProcess_P} from './styled-components/custom-styled';
+import WorkProcessBoxes from './WorkProcessBoxes';
+
 
 
 const WorkProcess =()=>{
     return(
         <>
-        <h5>روند کاری ما به چه صورت است ؟</h5>
-        <h6>لطفا تمامی مراحل رابا دقت و به ترتیب انجام دهید</h6>
+        < WorkProcess_PARENT>
+        < WorkProcess_text>روند کاری ما به چه صورت است ؟</ WorkProcess_text>
+        <WorkProcess_P>لطفا تمامی مراحل رابا دقت و به ترتیب انجام دهید</WorkProcess_P>
+        </ WorkProcess_PARENT>
+        <WorkProcessBoxes/>
         </>
     )
 }

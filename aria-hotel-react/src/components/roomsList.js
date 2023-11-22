@@ -1,7 +1,9 @@
 import React,{useEffect} from 'react';
 import {useSelector,useDispatch} from 'react-redux';
 import {fetchRooms} from '../redux/roomsSlice';
-import{CARDS_PARENT,CARD_ITEM,IMG_BODY,CONTENT_ITEM,ROOM_FITURES} from './styled-components/custom-styled'
+import{CARDS_PARENT,CARD_ITEM,IMG_BODY,CONTENT_ITEM,ROOM_FITURES} from './styled-components/custom-styled';
+import WorkProcess from './workProcess';
+
 
 const RoomsList = () => {
 
@@ -37,6 +39,8 @@ const RoomsList = () => {
                   }
                
                </CARDS_PARENT>
+               <WorkProcess/>
+
         </>
      );
 }
