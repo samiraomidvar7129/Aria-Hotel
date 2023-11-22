@@ -1,10 +1,17 @@
 import React from 'react';
+import Navbar from './navbar';
 import Header from './header';
+import ShowData from './showData';
 
-const HOME = () => {
+const Home = () => {
     return ( 
-        <Header/>
+         <>
+         <Navbar/>
+         <Header/>
+         <ShowData/>
+         </>
+        
      );
 }
  
-export default HOME;
+export default Home;

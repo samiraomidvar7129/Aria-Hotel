@@ -18,6 +18,7 @@ const Navbar =()=>{
         <NAVBAR>
             <span><AiOutlineUserAdd/></span>
             <span><BiSearchAlt/></span>
+            
            <UL>
             <LI>
                 <Link className='nav-link' to='/'>خانه</Link>

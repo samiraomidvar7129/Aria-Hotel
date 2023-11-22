@@ -27,15 +27,5 @@
     margin-top: 60px;
 }
 
-/*  ShowData Component Styles */
 
-.showData-parent{
-    width: 100%;
-    height: 400px;
-    background-color: pink;
-}
-.rooms-title{
-    text-align: center;
-    padding-top: 20px;
-    color: red !important;
-}
+

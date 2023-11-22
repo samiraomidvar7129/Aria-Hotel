@@ -1,12 +1,14 @@
 import React from 'react';
-import '../styles.css';
+import RoomsList from './roomsList';
+import {SHOWDATAPARENT,ROOMSTITLE} from './styled-components/custom-styled'
 
 const ShowData = () => {
     return ( 
         <>
-         <div className='showData-parent'>
-            <h2 className='rooms-title'>لیست اتاقها</h2>
-         </div>
+        <SHOWDATAPARENT >
+            <ROOMSTITLE className='rooms-title'>لیست اتاقها</ROOMSTITLE>
+           <RoomsList/>
+         </SHOWDATAPARENT>
         </>
      );
 }

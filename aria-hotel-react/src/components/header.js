@@ -2,6 +2,7 @@ import React from 'react';
 import hotel from '../imgs/banner/hotel.jpg';
 import Navbar from '../components/navbar';
 // import HeaderText from './headerText';
+
 import { SECTION,HEADERIMG,IMG} from './styled-components/custom-styled';
 
 
