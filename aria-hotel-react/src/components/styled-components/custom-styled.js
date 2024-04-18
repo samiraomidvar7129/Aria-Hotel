@@ -12,7 +12,8 @@ z-index:-1;
 export const HEADERIMG =styled.div`
 width:100%;
 height:100%;
-position:relative
+position:relative;
+background-position:atachment
 `
 export const IMG=styled.img`
 display:block;
@@ -230,4 +231,22 @@ font-size:14px;
 margin-top:12px;
 color:#7D7C7C;
 text-align:right;
+`
+
+export const SHOWDETAILE=styled.div`
+width:100%;
+height:50px;
+color:#ffff;
+padding:10px;
+border-radius:4px;
+text-align:center;
+margin-top:12px;
+background-color: DodgerBlue;
+display:flex;
+justify-content:center;
+align-items:center
+`
+
+export const DETAILELINK=styled.a`
+color:#ffff
 `

@@ -11,7 +11,6 @@ import {AiOutlineUserAdd} from 'react-icons/ai';
 import {BiSearchAlt} from 'react-icons/bi';
 import { Link,Routes,Route } from 'react-router-dom';
 
-
 const Navbar =()=>{
     return(
         <>

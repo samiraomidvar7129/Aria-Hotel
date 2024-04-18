@@ -4,14 +4,10 @@
 body,*,::after,::before{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;     
-}
-
-ul,li,ol{
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
     list-style: none;
-}
-a{
-    text-decoration: none;
+    text-decoration: none;    
 }
 img{
     display: block;

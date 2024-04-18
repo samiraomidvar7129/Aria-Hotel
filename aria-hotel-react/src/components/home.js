@@ -3,6 +3,7 @@ import Navbar from './navbar';
 import Header from './header';
 import ShowData from './showData';
 
+
 const Home = () => {
     return ( 
          <>
@@ -10,7 +11,7 @@ const Home = () => {
          <Header/>
          <ShowData/>
          </>
-        
+         
      );
 }
  
