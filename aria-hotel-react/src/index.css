@@ -9,6 +9,7 @@ body,*,::after,::before{
     list-style: none;
     text-decoration: none;    
 }
+
 img{
     display: block;
     width: 100%;

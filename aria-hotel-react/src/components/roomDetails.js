@@ -27,7 +27,6 @@ const RoomDetails = () => {
                                   <img src={room.img} alt='room'/>
                                </IMG_BODY>
                                
- 
                             <span>{room.roomNumber} : شماره اتاق </span>
                             <CONTENT_ITEM>
                             <span>{room.beds} : تعداد تخت </span>

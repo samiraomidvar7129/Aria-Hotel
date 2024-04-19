@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return ( 
-        <h1> درباره ما</h1>
+        <h1 style={{marginTop:"200px"}}> درباره ما</h1>
      );
 }
  

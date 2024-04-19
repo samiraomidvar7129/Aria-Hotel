@@ -1,18 +1,17 @@
-import React from 'react';
-import Navbar from './navbar';
-import Header from './header';
-import ShowData from './showData';
-
+import React from "react";
+import hotel from "../imgs/banner/hotel.jpg";
+import { IMG } from "../components/styled-components/custom-styled";
+import WorkProcess from "./workProcess";
 
 const Home = () => {
-    return ( 
-         <>
-         <Navbar/>
-         <Header/>
-         <ShowData/>
-         </>
-         
-     );
-}
- 
+  return (
+    <div>
+      <div>
+        <IMG src={hotel}>{/* <HeaderText/> */}</IMG>
+      </div>
+      <WorkProcess/>
+    </div>
+  );
+};
+
 export default Home;

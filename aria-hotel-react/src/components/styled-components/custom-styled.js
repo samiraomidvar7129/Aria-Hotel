@@ -12,7 +12,6 @@ z-index:-1;
 export const HEADERIMG =styled.div`
 width:100%;
 height:100%;
-position:relative;
 background-position:atachment
 `
 export const IMG=styled.img`
@@ -24,19 +23,19 @@ height:100%;
 /* Navbar Component Styles*/
 
 export const NAVBAR=styled.nav`
-width:90%;
+width:100%;
 height:60px;
-background-color:#FF5B22;
-position:absolute;
-z-index:11;
-top:10px;
-left:5%;
+background-color:#ccc;
+margin-bottom:1px;
 display:flex;
-justify-content:center;
-align-items:center
+justify-content:space-around;
+align-items:center;
+position:fixed;
+top:0;
+left:0;
+right0;
 `
 export const UL=styled.ul`
-width:80%;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -60,7 +59,7 @@ export const SHOWDATAPARENT=styled.div`
 width: 100%;
 height: auto;
 padding: 20px;
-margin-top:70px
+margin-top:100px
 
 `
 export const ROOM_TEXT=styled.h5`
@@ -95,9 +94,8 @@ padding: 10px
 export const CARD_ITEM=styled.div`
 width: 200px;
     height: 330px;
-    -webkit-box-shadow: 12px 11px 39px -29px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 12px 11px 39px -29px rgba(66, 68, 90, 1);
-    box-shadow: 12px 11px 39px -29px rgba(66, 68, 90, 1);
+    border:1px solid silver;
+    border-radius:4px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

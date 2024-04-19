@@ -11,7 +11,7 @@ const WorkProcess =()=>{
         < WorkProcess_text>روند کاری ما به چه صورت است ؟</ WorkProcess_text>
         <WorkProcess_P>لطفا تمامی مراحل رابا دقت و به ترتیب انجام دهید</WorkProcess_P>
         </ WorkProcess_PARENT>
-        <WorkProcessBoxes/>
+         <WorkProcessBoxes/>
         </>
     )
 }
