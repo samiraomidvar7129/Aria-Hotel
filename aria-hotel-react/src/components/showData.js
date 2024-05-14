@@ -1,17 +1,32 @@
-import React from 'react';
-import RoomsList from './roomsList';
-import {SHOWDATAPARENT,ROOM_TEXT,ROOMSTITLE} from './styled-components/custom-styled'
+import React from "react";
+
+import {
+  SHOWDATAPARENT,
+  SHOWDATAITEM,
+  ROOM_TEXT,
+  ROOMSTITLE,
+} from "./styled-components/custom-styled";
+
 
 const ShowData = () => {
-    return ( 
-        <>
-        <SHOWDATAPARENT >
-            <ROOM_TEXT>اتاقها</ROOM_TEXT>
-            <ROOMSTITLE className='rooms-title'>  اتاق موردنظر خود را انتخاب کنید</ROOMSTITLE>
-           <RoomsList/>
-         </SHOWDATAPARENT>
-        </>
-     );
-}
- 
-export default  ShowData;
+  return (
+    <>
+      <SHOWDATAPARENT>
+        <SHOWDATAITEM>
+          <ROOM_TEXT>
+            ما مجموعه‌ای از اتاقهای استثنایی را ارائه می‌دهیم که عملکردهای شما
+            را برآورده می‌کنند و اقامتی لذت‌بخش را تضمین می‌کنند
+          </ROOM_TEXT>
+        </SHOWDATAITEM>
+       
+        <SHOWDATAITEM>
+          <ROOMSTITLE className="rooms-title">
+            اتاق های محبوب ما که به شما توصیه میکنیم
+          </ROOMSTITLE>
+        </SHOWDATAITEM>
+      </SHOWDATAPARENT>
+    </>
+  );
+};
+
+export default ShowData;

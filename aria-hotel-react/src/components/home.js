@@ -1,15 +1,21 @@
 import React from "react";
-import hotel from "../imgs/banner/hotel.jpg";
-import { IMG } from "../components/styled-components/custom-styled";
+import Slider from "./slider";
+import DataAndTime from "./data&time";
+import ShowData from "./showData";
+import RoomsList from "./roomsList";
 import WorkProcess from "./workProcess";
+import Counter from "./counter";
 
 const Home = () => {
   return (
     <div>
-      <div>
-        <IMG src={hotel}>{/* <HeaderText/> */}</IMG>
-      </div>
+      <Slider/>
+      <DataAndTime/>
+      <ShowData/>
+       <RoomsList/>
       <WorkProcess/>
+      <Counter/>
+
     </div>
   );
 };

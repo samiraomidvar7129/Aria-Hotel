@@ -8,16 +8,19 @@ height:95vh;
 position:relative;
 margin:0;
 z-index:-1;
+
 `
-export const HEADERIMG =styled.div`
+export const SLIDER =styled.div`
 width:100%;
-height:100%;
-background-position:atachment
+height:90vh;
+background-color:#4F5A49;
 `
-export const IMG=styled.img`
-display:block;
+
+export const DATAANDTIME= styled.div`
 width:100%;
-height:100%;
+height:60px;
+background-color:#323A2D;
+
 `
 
 /* Navbar Component Styles*/
@@ -25,7 +28,7 @@ height:100%;
 export const NAVBAR=styled.nav`
 width:100%;
 height:60px;
-background-color:#ccc;
+background-color:#4F5A49;
 margin-bottom:1px;
 display:flex;
 justify-content:space-around;
@@ -59,20 +62,29 @@ export const SHOWDATAPARENT=styled.div`
 width: 100%;
 height: auto;
 padding: 20px;
-margin-top:100px
+margin-top:20px;
+display:flex;
+justify-centent:center,
+align-items:center
 
 `
-export const ROOM_TEXT=styled.h5`
-font-size:12px;
-color:#FF5B22;
-text-align:right;
-margin-right:30px
+
+export const SHOWDATAITEM= styled.div`
+width:50%;
+height:100%
+background-color:#323A2D;
+`
+export const ROOM_TEXT=styled.h4`
+text-align:center;
+color:#4F5A49;
+word-wrap:wrap;
+line-height:32px
+
 `
 export const ROOMSTITLE=styled.h4`
-text-align: right;
-padding-top: 20px;
-color: #FF5B22;
-margin-right:30px
+text-align:center;
+color: #4F5A49;
+
 `
 
 /*  roomsList Component Styles */
@@ -171,19 +183,26 @@ width:90%;
 height:70px;
 margin:50px auto;
 padding:10px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center
 `
-export const WorkProcess_text=styled.h5`
+export const WorkProcess_text=styled.h4`
 text-align:center;
-color:#FF5B22;
+color:#4F5A49;
 `
 export const WorkProcess_P=styled.p`
 text-align:center;
-color:#010101;
-font-size:14px;
-margin-top:10px
+color:#323A2D;
+font-size:16px;
+margin-top:20px;
+width:70%;
+line-height:32px
 `
 
 /*WorkProcessBoxes Component Styles */
+
 export const WorkProcessBoxes_WRAPPER=styled.section`
 width:90%;
 height:auto;
@@ -248,3 +267,65 @@ align-items:center
 export const DETAILELINK=styled.a`
 color:#ffff
 `
+
+/* Counter Component Styles */
+
+export const COUNTER =styled.section`
+width:80%;
+height:500px;
+margin:300px auto;
+background-color:#4F5A49;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+`
+
+
+/* Memories Component Styles */
+
+export const MEMORYPARENT = styled.section`
+width:80%;
+height: auto;
+margin: -300px auto 0 auto;
+display:flex;
+justify-content:center;
+align-items:center;
+
+`
+
+
+/* counterContent Component Styles */
+
+
+export const COUNTERCONTENT=styled.div`
+width:100%;
+height:auto;
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:50px;
+color:#ffff;
+
+`
+export const COUNTERCONTENTITEM=styled.div`
+width:50%;
+height:200px;
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+`
+
+export const COUNTERCONTENTDIV=styled.div`
+width:200px;
+height:200px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+`
+
+
