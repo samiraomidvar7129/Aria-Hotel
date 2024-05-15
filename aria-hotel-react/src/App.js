@@ -7,7 +7,7 @@ import Restaurant from "./components/restaurant";
 import AboutUs from "./components/aboutUs";
 import ContactUs from "./components/contactUs";
 import RoomDetails from "./components/roomDetails";
-import { Link, Routes, Route} from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 import {
   NAVBAR,
   UL,
@@ -25,13 +25,14 @@ const App = () => {
   return (
     <Provider store={store}>
       <NAVBAR>
-      <span><MyReserves/></span>
+        <span>
+          <MyReserves />
+        </span>
 
         <div>
           <AiOutlineUserAdd />
           <BiSearchAlt />
         </div>
-       
 
         <UL>
           <LI>
@@ -67,11 +68,11 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/rooms" element={<RoomsList />}/>
-        <Route path="/roomDetails/:id" element={<RoomDetails />}/>
-        <Route path="/resturant" element={<Restaurant />}/>
-        <Route path="/aboutUs" element={<AboutUs />}/>
-        <Route path="/contactUs" element={<ContactUs />}/>
+        <Route path="/rooms" element={<RoomsList />} />
+        <Route path="/roomDetails/:id" element={<RoomDetails />} />
+        <Route path="/resturant" element={<Restaurant />} />
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contactUs" element={<ContactUs />} />
       </Routes>
     </Provider>
   );
