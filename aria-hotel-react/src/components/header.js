@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Services from "../components/services";
+// import Navbar from "../components/navbar";
 import { HEADER } from "./styled-components/custom-styled";
 
 const Header = () => {
   return (
     <div>
       <HEADER>
-        <Navbar />
-        <Services />
+        {/* <Navbar /> */}
       </HEADER>
     </div>
   );

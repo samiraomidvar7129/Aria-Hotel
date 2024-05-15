@@ -58,15 +58,17 @@ export const NAVBAR=styled.nav`
 width:100%;
 height:60px;
 background-color:#4F5A49;
-margin-bottom:1px;
+// margin-bottom:1px;
 display:flex;
 justify-content:space-around;
 align-items:center;
+text-align:center;
 position:fixed;
 top:0;
 left:0;
 right0;
 z-index:1;
+padding:20px
 `
 export const UL=styled.ul`
 display:flex;
@@ -81,9 +83,11 @@ color:#fff;
 export const LOGODIV=styled.div`
 width:20%;
 height:auto;
+
 `
 export const LOGO=styled.img`
 width:100px;
+height:100%
 `
 
 /* showData Component Styles */ 

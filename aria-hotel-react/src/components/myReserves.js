@@ -3,7 +3,7 @@ import React from 'react';
 const MyReserves = () => {
   return (
     <div>
-       <h1>tttfyhjhjhjghyg</h1>
+       <button>رزرو های من</button>
     </div>
   )
 }

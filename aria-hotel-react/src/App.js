@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import Home from "./components/home";
+import MyReserves from "./components/myReserves";
 import RoomsList from "./components/roomsList";
 import Restaurant from "./components/restaurant";
 import AboutUs from "./components/aboutUs";
@@ -24,12 +25,13 @@ const App = () => {
   return (
     <Provider store={store}>
       <NAVBAR>
-        <span>
+      <span><MyReserves/></span>
+
+        <div>
           <AiOutlineUserAdd />
-        </span>
-        <span>
           <BiSearchAlt />
-        </span>
+        </div>
+       
 
         <UL>
           <LI>
