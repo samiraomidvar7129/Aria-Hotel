@@ -12,16 +12,55 @@ z-index:-1;
 `
 export const SLIDER =styled.div`
 width:100%;
-height:90vh;
+height:85vh;
 background-color:#4F5A49;
+padding:50px;
+
 `
 
 export const DATAANDTIME= styled.div`
 width:100%;
-height:60px;
+height:100px;
 background-color:#323A2D;
 
 `
+
+
+
+/* HeaderContent Component Styles*/
+
+export const HEADERCONTENT=styled.div`
+width:100%;
+height:100%;
+display:flex;
+justify-content:space-around;
+align-items:center;
+margin-top:40px
+`
+
+export const HEADERCONTENTITEM=styled.div`
+width:50%;
+height:90%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;;
+overflow:hidden;
+padding-right:20px;
+
+`
+
+export const HEADERCONTENTITEMIMG=styled.img`
+border-radius:39% 61% 34% 66% / 65% 18% 82% 35%;
+`
+
+export const HEADERCONTENTITEMH1=styled.h1`
+color:#ffff;
+text-align:center
+`
+
+
+
 
 /* Navbar Component Styles*/
 

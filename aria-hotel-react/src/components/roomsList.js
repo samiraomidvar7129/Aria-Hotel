@@ -29,6 +29,8 @@ const RoomsList = () => {
               </IMG_BODY>
 
               <Link to={`/roomDetails/${room.id}`}>جزییات اتاقها</Link>
+
+ 
             </CARD_ITEM>
           );
         })}
