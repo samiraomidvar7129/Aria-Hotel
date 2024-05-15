@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import Home from "./components/home";
-// import Room from "./components/room";
 import RoomsList from "./components/roomsList";
 import Restaurant from "./components/restaurant";
 import AboutUs from "./components/aboutUs";

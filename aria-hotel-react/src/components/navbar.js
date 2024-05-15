@@ -2,8 +2,10 @@ import React from 'react';
 import '../styles.css'
 import {NAVBAR,UL,LI,LOGODIV,LOGO} from './styled-components/custom-styled';
 import logo from '../imgs/logo/logo.png';
-import {AiOutlineUserAdd} from 'react-icons/ai';
-import {BiSearchAlt} from 'react-icons/bi';
+import MyReserves from './myReserves';
+
+// import {AiOutlineUserAdd} from 'react-icons/ai';
+// import {BiSearchAlt} from 'react-icons/bi';
 import {Link} from "react-router-dom";
 
 
@@ -11,8 +13,9 @@ const Navbar =()=>{
     return(
         <>
         <NAVBAR>
-            <span><AiOutlineUserAdd/></span>
-            <span><BiSearchAlt/></span>
+            {/* <span><AiOutlineUserAdd/></span>
+            <span><BiSearchAlt/></span> */}
+            <MyReserves/>
             
            <UL>
             <LI>

@@ -50,16 +50,6 @@ padding-right:20px;
 
 `
 
-export const HEADERCONTENTITEMIMG=styled.img`
-border-radius:39% 61% 34% 66% / 65% 18% 82% 35%;
-`
-
-export const HEADERCONTENTITEMH1=styled.h1`
-color:#ffff;
-text-align:center
-`
-
-
 
 
 /* Navbar Component Styles*/
@@ -76,6 +66,7 @@ position:fixed;
 top:0;
 left:0;
 right0;
+z-index:1;
 `
 export const UL=styled.ul`
 display:flex;
