@@ -305,9 +305,9 @@ color:#ffff
 /* Counter Component Styles */
 
 export const COUNTER =styled.section`
-width:80%;
+width:100%;
 height:500px;
-margin:300px auto;
+margin:300px 0 10px 0 ;
 background-color:#4F5A49;
 display:flex;
 flex-direction:column;
@@ -362,4 +362,12 @@ align-items:center;
 
 `
 
+
+ /* Advertising Component Styles */
+
+ export const ADVERTISING =styled.div`
+ width:100%;
+ height:300px
+ `
+ 
 
