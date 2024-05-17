@@ -7,6 +7,7 @@ import WorkProcess from "./workProcess";
 import Counter from "./counter";
 import Advertising from "./advertising";
 import CommentsSlider from "./comentsSlider";
+import Footer from "./footer";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Counter/>
       <Advertising/>
       <CommentsSlider/>
+      <Footer/>
 
     </div>
   );

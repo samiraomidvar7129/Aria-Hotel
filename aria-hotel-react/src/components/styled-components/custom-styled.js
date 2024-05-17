@@ -366,5 +366,14 @@ align-items:center;
   right:20px;
   z-index:9999
 
-
  `
+
+
+  /* Footer Component Styles */
+
+
+  export const FOOTER=styled.footer`
+  width:100%;
+  height:100px;
+  background-color:#4F5A49
+  `
