@@ -1,10 +1,10 @@
 import React from 'react';
-import advertise from '../imgs/advertiseImg/a.jpg';
+import advertise from '../imgs/advertiseImg/jainjas.gif';
 import {ADVERTISING } from "../components/styled-components/custom-styled";
 import { Link } from 'react-router-dom';
 
   
-const AdvertisingVideo = () => {
+const Advertising = () => {
   return (
     <ADVERTISING>
         <Link to="">
@@ -14,4 +14,4 @@ const AdvertisingVideo = () => {
   )
 }
 
-export default AdvertisingVideo;
+export default Advertising;

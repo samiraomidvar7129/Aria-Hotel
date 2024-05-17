@@ -56,9 +56,8 @@ padding-right:20px;
 
 export const NAVBAR=styled.nav`
 width:100%;
-height:60px;
+height:70px;
 background-color:#4F5A49;
-// margin-bottom:1px;
 display:flex;
 justify-content:space-around;
 align-items:center;
@@ -86,8 +85,8 @@ height:auto;
 
 `
 export const LOGO=styled.img`
-width:100px;
-height:100%
+width:80%;
+height:100%;
 `
 
 /* showData Component Styles */ 
@@ -140,7 +139,6 @@ padding: 10px
 export const CARD_ITEM=styled.div`
 width: 200px;
     height: 330px;
-    border:1px solid silver;
     border-radius:4px;
     display: flex;
     flex-direction: column;
@@ -148,7 +146,10 @@ width: 200px;
     align-items: center;
     margin: 10px 5px 0 0 ;
     padding: 5px;
+    background-color:#4F5A49;
+    color:#ffff
 `
+
 export const IMG_BODY=styled.div`
 width: 170px;
 height: 170px;
@@ -169,47 +170,6 @@ font-size:10px;
 text-align:right
 `
 
-/* Services Component Styles*/ 
-
-export const SERVICES=styled.section`
-width:90%;
-height:100px;
-margin:0 auto;
-position:relative;
-top:-50px;
-left:0;
-`
-export const SERVICES_ITEMS=styled.div`
-width:100%;
-height:100%;
-background-color:#fff;
-border-bottom:1px solid #E57C23;
-display:flex;
-flex-direction:row-reverse;
-justify-content:space-around;
-align-items:center
-`
-export const SERVICES_BOX=styled.div`
-width:16%;
-height:100%;
-color:#FF5B22;
-display:flex;
-flex-direction:column;
-justify-content:space-around;
-align-items:center;
-font-size:40px;
-padding:10px
-`
-export const SERVICES_ICONS=styled.span`
-width:100%;
-heght:100%;
-display:flex;
-justify-content:center;
-align-items:center
-`
-export const SERVICES_TEXT=styled.h4`
-font-size:14px
-`
 /* WorkProcess  Component Styles*/
 
 export const WorkProcess_PARENT=styled.section`
@@ -235,72 +195,6 @@ width:70%;
 line-height:32px
 `
 
-/*WorkProcessBoxes Component Styles */
-
-export const WorkProcessBoxes_WRAPPER=styled.section`
-width:90%;
-height:auto;
-margin:30px auto;
-display:flex;
-flex-direction:row-reverse;
-justify-content:space-around;
-align-items:center
-`
-export const BOX_1=styled.div`
-width:30%;
-heght:250px;
-padding:10px;
-display:flex;
-flex-direction:column;
-justify-content:space-around;
-align-items:center;
-`
-export const BOX_1_ITEM=styled.div`
-width:100%;
-heght:auto;
-display:flex;
-flex-direction:row-reverse;
-justify-content:space-around;
-align-items:center
-`
-export const BOX_1_text=styled.p`
-font-size:13px;
-margin-top:10px;
-`
-export const BOX_1_ICON=styled.span`
-width:10%;
-height:100%;
-color:#FF5B22;
-font-size:30px;
-`
-export const BOX_1_NUMBER=styled.span`
-color:#FF5B22;
-font-size:22px
-`
-export const DESCRIPTION=styled.p`
-font-size:14px;
-margin-top:12px;
-color:#7D7C7C;
-text-align:right;
-`
-
-export const SHOWDETAILE=styled.div`
-width:100%;
-height:50px;
-color:#ffff;
-padding:10px;
-border-radius:4px;
-text-align:center;
-margin-top:12px;
-background-color: DodgerBlue;
-display:flex;
-justify-content:center;
-align-items:center
-`
-
-export const DETAILELINK=styled.a`
-color:#ffff
-`
 
 /* Counter Component Styles */
 
@@ -367,7 +261,110 @@ align-items:center;
 
  export const ADVERTISING =styled.div`
  width:100%;
- height:300px
+ height:150px
  `
  
+ /* CommentsSlider Component Styles */
 
+
+ export const COMMENTS =styled.div`
+ width:100%;
+ height:100%;
+ margin:30px auto;
+ overflow:hidden;
+ position:relative
+ 
+ `
+ export const SWIPERCONTAINER =styled.div`
+ width:90%;
+ margin:0 auto;
+ overflow:hidden;
+ 
+ `
+
+ export const COMMENTSH3=styled.h3`
+ display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+color:#4F5A49;
+margin-top:30px
+
+ `
+
+ export const SWIPERWRAPPER=styled.div`
+ width:100%;
+ height:100%;
+
+ `
+
+ export const SWIPERP=styled.p`
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ text-align:justify;
+ color:#4F5A49;
+ font-size:14px;
+ line-height:25px
+ `
+export const SWIPERPDIV=styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:20px
+`
+
+export const SWIPERPSPAN=styled.span`
+width:50px;
+height:50px
+`
+
+export const SWIPERPSPANIMG=styled.img`
+width:40px;
+height:40px;
+border-radius:100%;
+margin-right:12px;
+`
+export const SWIPERPSPANUSERNAME=styled.span`
+color:#4F5A49;
+`
+
+ export const SLIDERBUTTONS=styled.div`
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ position:relative
+ `
+
+ export const PREVBUTTON=styled.span`
+ display:flex;
+justify-content:center;
+align-items:center;
+ width:30px;
+ height:30px;
+ border:1px solid #aaa;
+ border-radius:100%;
+ margin-left:15px;
+  position:absolute;
+  bottom:10px;
+  left:20px;
+  z-index:9999
+
+
+ `
+ export const NEXRBUTTON=styled.span`
+ display:flex;
+justify-content:center;
+align-items:center;
+ width:30px;
+ height:30px;
+ border:1px solid #aaa;
+ border-radius:100%;
+ margin-left:15px;
+  position:absolute;
+  bottom:10px;
+  right:20px;
+  z-index:9999
+
+
+ `

@@ -17,13 +17,13 @@ img{
 }
 
 .imgRoom{
-    width: 150px;
+    width: 200px;
     height: 400px;
     margin-left: 15px;
     border-radius: 100px;
-    border: 2px solid #4F5A49;
 }
 
 .imgRoomCenter{
     margin-top: 70px;
 }
+

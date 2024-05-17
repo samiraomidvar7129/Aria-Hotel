@@ -15,7 +15,7 @@ import {
   LOGODIV,
   LOGO,
 } from "./components/styled-components/custom-styled";
-import logo from "./imgs/logo/logo.png";
+import logo from "./imgs/logo/logo.svg";
 import { AiOutlineUserAdd } from "react-icons/ai";
 import { BiSearchAlt } from "react-icons/bi";
 import { Provider } from "react-redux";

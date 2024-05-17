@@ -1,7 +1,7 @@
 import React from 'react';
-import room1 from "../imgs/room-imgs/room-3.jpg";
-import room2 from "../imgs/room-imgs/room-4.jpg";
-import room3 from "../imgs/room-imgs/room-5.jpg";
+import room1 from "../imgs/memoriesImg/room-1.jpg";
+import room2 from "../imgs/memoriesImg/room-2.jpg";
+import room3 from "../imgs/memoriesImg/room-3.jpg";
 import { MEMORYPARENT } from "./styled-components/custom-styled";
 
 

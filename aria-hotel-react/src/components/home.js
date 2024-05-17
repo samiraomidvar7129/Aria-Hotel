@@ -5,7 +5,8 @@ import ShowData from "./showData";
 import RoomsList from "./roomsList";
 import WorkProcess from "./workProcess";
 import Counter from "./counter";
-import AdvertisingVideo from "./advertising";
+import Advertising from "./advertising";
+import CommentsSlider from "./comentsSlider";
 
 const Home = () => {
   return (
@@ -16,7 +17,8 @@ const Home = () => {
        <RoomsList/>
       <WorkProcess/>
       <Counter/>
-      <AdvertisingVideo/>
+      <Advertising/>
+      <CommentsSlider/>
 
     </div>
   );
