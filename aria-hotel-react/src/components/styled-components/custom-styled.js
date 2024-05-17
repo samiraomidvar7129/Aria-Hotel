@@ -384,15 +384,16 @@ align-items:center;
   display:flex;
   justify-content:space-around;
   align-items:center;
+  border-bottom:1px solid #aaa
   `
 
   export const FOOTERCONTENTITEMS=styled.div`
-  width:100%;
-  height:100%;
+  width:auto;
+  height:auto;
   display:flex;
-  justify-content:center;
   align-items:center;
-  background-color:red
+  background-color:#4F5A49
+
   `
 
   export const FOOTERLINKS=styled.div`
@@ -400,5 +401,28 @@ align-items:center;
   display:flex;
   justify-content:space-around;
   align-items:center;
-  background-color:pink
+  background-color:pink;
+  flex-grow:1
+  `
+
+  /* TermsConditions Component Styles */
+
+  export const TERMANDCONDITIONS=styled.div`
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:20px;
+  background-color:#4F5A49
+
+  `
+  export const TERMANDCONDITIONSITEM=styled.div`
+  width:33%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px
   `
