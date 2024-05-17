@@ -377,3 +377,28 @@ align-items:center;
   height:100px;
   background-color:#4F5A49
   `
+
+  export const FOOTERCONTENT=styled.div`
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  `
+
+  export const FOOTERCONTENTITEMS=styled.div`
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:red
+  `
+
+  export const FOOTERLINKS=styled.div`
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color:pink
+  `

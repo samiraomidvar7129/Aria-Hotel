@@ -1,5 +1,5 @@
 import React from 'react';
-import advertise from '../imgs/advertiseImg/jainjas.gif';
+import advertise from '../imgs/advertiseGiff/advertiseGiff.gif';
 import {ADVERTISING } from "../components/styled-components/custom-styled";
 import { Link } from 'react-router-dom';
 
